@@ -20,6 +20,9 @@
 }
 
 /* header and navigation styles */
+.header {
+  background-color: #fff8f3;
+}
 nav {
   display: flex;
   justify-content: space-between;
