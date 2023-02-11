@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;   
+  padding: 0;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -30,7 +30,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 200px;
+  padding: 50px 200px;
 }
 .nav-title {
   font-weight: 800;
@@ -88,7 +88,7 @@ section {
   font-weight: 700;
   font-size: 35px;
 }
-.what-i-do-description{
+.what-i-do-description {
   font-weight: 400;
   font-size: 18px;
   text-align: center;
@@ -141,51 +141,53 @@ section {
 
 /* Resume styles */
 /* Resume Styles */
-.resume-content{
+.resume-content {
   display: flex;
   gap: 24px;
 }
-.resume-item{
+.resume-item {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.resume .title{
+.resume .title {
   font-weight: 700;
   font-size: 25px;
   color: #474747;
   margin-bottom: 10px;
 }
-.resume .sub-title{
+.resume .sub-title {
   color: #757575;
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 20px;
 }
-.resume .description{
+.resume .description {
   color: #757575;
 }
 
-.resume-button{
+.resume-button {
   margin-top: 50px;
   text-align: center;
 }
 
 /* contact style */
-.contact{
+.contact {
   display: flex;
   gap: 100px;
-  background-color: #FFF8F3;
+  background-color: #fff8f3;
   padding: 130px 200px;
 }
-.contact .section-title{
+.contact .section-title {
   text-align: left;
 }
-.contact input[type="text"], input[type="email"], textarea{
+.contact input[type="text"],
+input[type="email"],
+textarea {
   margin-bottom: 24px;
   border: 0;
   width: 100%;
   padding: 18px 30px;
 }
-input{
+input {
   height: 50px;
 }
